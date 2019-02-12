@@ -1,0 +1,89 @@
+h1, h2, h3, p, li, ul, a {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	box-sizing: border-box;
+	color: #5e0026;
+}
+a{
+	text-decoration: none;
+}
+
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-image: url(../img/background.png);
+	width: 1166px;
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	text-align: center;
+}
+.main-header{
+	padding: 96px 0 10px;
+	h1{
+		font-size: 25px;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: -0.53px;	
+		padding-bottom: 2px;
+	}
+	h2{
+		font-family:bebas-neue, sans-serif;
+		color: #df4382;
+		font-size: 194px;
+		text-shadow: -4px 6px 0 #5e0026;
+		line-height:150px;
+		letter-spacing: .05em;
+	}
+}
+.main-info{
+	padding-bottom: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	h3{	
+		font-size: 14px;
+		text-transform: uppercase;
+		padding-bottom: 10px;
+	}
+	p{
+		width: 300px;
+		font-size: 10px;
+	}
+}
+.main-footer{
+	.social-media{	
+		display: flex;
+		justify-content: center;
+		padding-bottom: 16px;
+		li{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 18px;
+			height: 18px;
+			background: #660000;
+			border-radius: 50%;
+			margin-right: 5px;
+			cursor: pointer;
+			a{
+				font-size: 12px;
+			}
+		}
+		i{
+			color: white;	
+		}	
+	}
+	.website-adress{
+		font-size: 8px;
+		font-family: 'ABeeZee', sans-serif;
+		letter-spacing: 8px;
+		text-transform: uppercase;
+		cursor: pointer;	
+	}
+}
